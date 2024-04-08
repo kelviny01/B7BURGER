@@ -1,0 +1,71 @@
+.maxWidth {
+  max-width: 126rem;
+  margin: 4.6rem auto 6.4rem;
+}
+
+.containerHeroBanner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.containerHeroInfosLeft {
+  margin-top: 3rem;
+}
+
+.containerHeroInfosLeft h1 {
+  font-size: 7.2rem;
+  font-weight: 400;
+  font-family: "Calistoga", serif;
+  color: #fff;
+  max-width: 59.2rem;
+}
+
+.containerHeroInfosLeft p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 5.6rem 0 7.2rem 0;
+  max-width: 48.8rem;
+  font-family: "Inter", serif;
+}
+
+.containerHeroInfosRight img {
+  position: relative;
+  top: 6.4rem;
+  z-index: 1;
+}
+
+.containerCardBurgers {
+  max-width: 93rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  margin-top: 8.6rem;
+}
+
+@media (max-width: 39.3rem) {
+  .containerHeroBanner {
+    text-align: center;
+  }
+
+  .containerHeroInfosLeft h1 {
+    font-size: 4.4rem;
+  }
+
+  .containerHeroInfosRight {
+    min-width: 29.2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerHeroBanner img {
+    width: 100%;
+  }
+
+  .containerCardBurgers {
+    justify-content: center;
+  }
+
+}

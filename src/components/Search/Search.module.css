@@ -1,0 +1,113 @@
+.search {
+  width: 100%;
+  min-height: 37.2rem;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 4.8rem;
+}
+
+.search h3 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 3.2rem;
+  max-width: 38.9rem;
+  text-align: left;
+  position: relative;
+  right: 2rem;
+}
+
+.search h3,
+.searchContent {
+  position: relative;
+  right: 37rem;
+}
+
+.searchContent {
+  display: flex;
+  align-items: center;
+  margin-top: 4.8rem;
+  margin-left: 59rem;
+}
+
+.searchContent label {
+  position: relative;
+}
+
+.searchContent label input,
+.searchContent select {
+  height: 5rem;
+  width: 37rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #2b2b2b;
+  outline: none;
+  color: #979797;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.searchContent label input {
+  padding-inline-start: 5.4rem;
+  margin-inline-end: 24rem;
+}
+
+.searchContent label input::placeholder {
+  color: currentColor;
+}
+
+.searchContent label svg {
+  position: absolute;
+  top: 1.7rem;
+  left: 2.2rem;
+  font-size: 1.8rem;
+  fill: #fff;
+}
+
+.searchContent label {
+  position: relative;
+}
+
+.searchContent label:last-child svg {
+  position: absolute;
+  left: 33rem;
+}
+
+.searchContent select {
+  appearance: none;
+  padding: 0 2.8rem;
+}
+
+@media (max-width: 39.3rem) {
+  .search h3,
+  .searchContent {
+    position: static;
+  }
+
+  .search h3 {
+    text-align: center;
+  }
+
+  .searchContent {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1.6rem;
+    align-items: start;
+    width: 100%;
+    padding: 0 1.6rem;
+  }
+
+  .searchContent input,
+  .searchContent select {
+    max-width: 34.4rem;
+  }
+
+  .searchContent label:last-child svg {
+    position: absolute;
+    left: 31rem;
+  }
+}

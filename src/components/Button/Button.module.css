@@ -1,0 +1,19 @@
+.btn_outline,
+.btn_fill {
+  border: 0.1rem solid #fff;
+  width: 21.4rem;
+  font-weight: bold;
+  height: 6rem;
+}
+
+.btn_fill {
+  border: none;
+  background-color: #fe6a0f;
+  width: 28rem;
+}
+
+@media (max-width: 39.3rem) {
+  .btn_outline {
+    display: none;
+  }
+}

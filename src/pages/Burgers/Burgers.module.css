@@ -1,0 +1,14 @@
+.containerCardBurgers {
+  max-width: 93rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  margin-top: 8.6rem;
+}
+
+@media (max-width: 39.3rem) {
+  .containerCardBurgers {
+    justify-content: center;
+  }
+}

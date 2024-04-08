@@ -1,0 +1,42 @@
+.maxWidth {
+  max-width: 126rem;
+  margin: 4.6rem auto 6.4rem;
+}
+
+.container,
+.navigationAndLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationAndLogo {
+  gap: 10.5rem;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.containerIconMenu .hide {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 39.3rem) {
+  .container {
+    justify-content: center;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .containerIconMenu .hide {
+    display: inline-block;
+  }
+
+
+
+}

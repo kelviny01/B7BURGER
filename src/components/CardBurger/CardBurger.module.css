@@ -1,0 +1,55 @@
+.cardBurger {
+  max-width: 38.4rem;
+}
+
+.imageBurger {
+  border-radius: 0.8rem 0.8rem 0 0;
+  height: 20.8rem;
+  background-color: #2b2b2b;
+  position: relative;
+}
+
+.imageBurger button {
+  position: absolute;
+  top: 5rem;
+  left: 3rem;
+  z-index: 11;
+  width: 11.9rem;
+  height: 4.5rem;
+}
+
+.imageBurger img {
+  position: absolute;
+  left: 4rem;
+  top: 6rem;
+}
+
+.infosBurger {
+  height: 20.8rem;
+  background-color: #1f1f1f;
+  padding: 6.6rem 4rem;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.infosBurger span {
+  display: block;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.infosBurger strong {
+  color: #fff;
+  font-family: "Calistoga", serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  padding: 1rem 0 0.5rem 0;
+}
+
+.infosBurger .priceBurger {
+  color: #fe6a0f;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}

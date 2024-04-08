@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Calistoga", serif; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+a {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+  background-color: #141414;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
