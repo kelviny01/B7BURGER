@@ -40,3 +40,13 @@ textarea {
 .containerForm form textarea {
   resize: vertical;
 }
+
+.containerForm form button {
+  margin-top: 6.4rem;
+}
+
+@media (max-width: 39.3rem) {
+  .containerForm form button {
+    width: 100%;
+  }
+}

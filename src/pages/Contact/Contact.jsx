@@ -1,6 +1,7 @@
 // Components:
 import Input from "../../components/Input/Input";
 import Footer from "../../components/Footer/Footer";
+import Button from "../../components/Button/Button";
 
 // CSS:
 import styles from "./Contact.module.css";
@@ -25,6 +26,7 @@ const Contact = () => {
               placeholder="Digite sua dúvida..."
             ></textarea>
           </label>
+          <Button buttonFill={true} nameButton="Enviar mensagem" />
         </form>
       </div>
       <Footer />
