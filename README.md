@@ -2,7 +2,9 @@
 
 <h2 align="center">Sobre</h2>
 
-<p align="center">Esse projeto foi desenvolvido para por em prática o meu aprendizado em React JS.</a><br/>
+<p align="center">Esse projeto foi desenvolvido para por em prática o meu aprendizado em React JS.</a></p>
+
+<br />
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
