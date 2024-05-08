@@ -30,6 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React JS
 - React Router Dom
 - React Icons
+- CSS Modules
 - Figma
 
 ## 💻 Projeto
